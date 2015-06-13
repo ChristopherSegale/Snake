@@ -1,0 +1,4 @@
+Snake is a game written in common lisp using the sdl2 bindings and depends on it and its dependencies in order to compile correctly.  The makefiles and the compile.lisp files use sbcl by default and will need alteration to work with other implementations of Common Lisp.
+
+How to play:
+The snake moves on its own, but the direction keys can be used to make it change direction.  The snake grows longer as it eats more fruit, and you lose if the head of the snake goes past the bounds of the screen or hits any part of the snake.  As for win conditions, there are none.

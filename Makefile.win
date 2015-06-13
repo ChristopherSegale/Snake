@@ -1,0 +1,10 @@
+BIN=snake.exe
+RM=rm -f
+
+all: $(BIN)
+
+$(BIN):
+	sbcl --non-interactive --load win-compile.lisp
+
+clean:
+	$(RM) $(BIN)
